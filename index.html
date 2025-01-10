@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.css" />
+    <script src="./js/app.js"></script>
+  </head>
+  <body>
+    <div id="collect">
+      <form>
+        <p>
+          <label for="patient">Patient</label>
+          <input type="text" id="patient" name="patient" value="" />
+        </p>
+
+	<p>
+	  <label for="date">Datum</label>
+          <input type="date" id="date" name="date" value="01.01.2025"><br>
+        </p>
+
+	<p>
+          <label for="exercise">Übung</label>
+          <select id="exercise" name="exercise">
+            <option value=""></option>
+            <option value="Ausfallschritte (Lunges)">Ausfallschritte (Lunges)</option>
+            <option value="Bankdrücken Kurzhantel">Banddrücken Kurzhantel</option>
+            <option value="Biceps Curls">Biceps Curls</option>
+            <option value="Bulgarian Split Squats">Bulgarien Split Squads</option>
+            <option value="Diagonale Crunches">Diagonale Crunches</option>
+            <option value="Hanging Leg Raises (Schlaufen)">Hanging Leg Raises (Schlaufen)</option>
+            <option value="Klimmzüge (grünes Band)">Klimzüge (grünes Band)</option>
+            <option value="Kreuzheben (Deadlifts)">Kreuzheben (Deadlifts)</option>
+            <option value="Push-Ups">Push-ups</option>
+            <option value="Pikes">Pikes</option>
+            <option value="Rückenstrecker">Rückenstrecker</option>
+            <option value="Schulterdrücken">Schulterdrücken</option>
+            <option value="Seitheben">Seitheben</option>
+            <option value="Sit-Ups">Sit-Ups</option>
+            <option value="Squads">Squads</option>
+            <option value="Trizepsdrücken (Kurzhanteln)">Trizepsdrücken (Kurzhantel)</option>
+            <option value="Trizepsdrücken (links) am Turm">Trizepsdrücken (links)</option>
+            <option value="Trizepsdrücken (rechts) am Turm">Trizepsdrücken (rechts)</option>
+            <option value="Wandsitz">Wandsitz</option>
+          </select>
+        </p>
+
+        <p>
+          <label for="unit">Gewicht/Zeit</label>
+          <input type="text" id="unit" name="unit" value="" />
+        </p>
+
+        <p>
+          <label for="repetition1">Wdh #1</label>
+          <input type="text" id="repetition1" name="repetition1" value="" />
+        </p>
+
+        <p>
+          <label for="repetition2">Wdh #2</label>
+          <input type="text" id="repetition2" name="repetition2" value="" />
+        </p>
+
+        <p>
+          <label for="repetition3">Wdh #3</label>
+          <input type="text" id="repetition3" name="repetition3" value="" />
+        </p>
+
+        <p>
+          <button id="btnSave">Hinzufügen</button>
+        </p>
+
+      </form>
+    </div>
+    <div id="display">
+      <p>
+        <button id="btnExport">Export</button>
+      </p>
+      <table>
+        <thead>
+          <tr>
+            <th>Patient</th>
+            <th>Datum</th>
+            <th>Übung</th>
+            <th>Gewicht/Zeit</th>
+            <th>Wdh #1</th>
+            <th>Wdh #2</th>
+            <th>Wdh #3</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- <tr data-row="0">
+            <td data-col="0" data-name="fname">Sample</td>
+            <td data-col="1">Name</td>
+            <td>sample@work.org</td>
+            <td>freesample</td>
+          </tr> -->
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>
