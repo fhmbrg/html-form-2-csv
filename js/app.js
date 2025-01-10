@@ -60,7 +60,17 @@ const APP = {
     });
 
     //create the file
-    let filename = `dataexport.${Date.now()}.csv`;
+    const date = new Date()
+    // calling a constructor, can use other methods to extract info from returned value
+
+    let day = date.getDate()
+    let month = date.getMonth() + 1
+    let year = date.getFullYear()
+
+    let fullDate = `${year}-${month}-${day}`
+    //console.log(fullDate)
+
+    let filename = `dataexport.${(fullDate)}.csv`;
     let file = new File([str], filename, { type: 'text/csv' });
 
     //create an anchor tag with "download" attribute
