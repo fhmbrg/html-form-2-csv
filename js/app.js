@@ -70,7 +70,7 @@ const APP = {
     let fullDate = `${year}-${month}-${day}`
     //console.log(fullDate)
 
-    let filename = `dataexport.${(fullDate)}.csv`;
+    let filename = `trainingsplan.${(fullDate)}.csv`;
     let file = new File([str], filename, { type: 'text/csv' });
 
     //create an anchor tag with "download" attribute
