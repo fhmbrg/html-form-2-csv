@@ -37,7 +37,3 @@ Um einen Trainingsplan vorab zu erstellen ist wie folgt vorzugehen:
 6. 3. bis 5. Punkt so oft wiederholen, bis alle angedachten Übungen hinzugefügt wurden
 7. Mittels Doppelklick die fehlenden Daten (Anzahl der Wiederholungen) im unteren Teils des Formulars eintragen
 8. Nachdem alle Daten hinterlegt wurden die Schaltfläche **Export** betätigen, um den gegenwärtigen Plan lokal als `.csv` Datei zu speichern
-
-## Eintragung vollständiger Datensätze
-
-Anders als bei der ***vorausgefüllten Nutzung*** kann die jeweilige Anzahl an Wiederholungen auch direkt eingetragen werden
