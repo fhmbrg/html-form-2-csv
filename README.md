@@ -1,6 +1,6 @@
 # html-form-2-csv
 
-Tracking von Trainingsdaten via HTML-Formular - Export als CSV-Datei.
+Tracking von Trainingsdaten via HTML-Formular und Export als CSV-Datei.
 
 ## Verfügbare Eingabe-/Auswahlfelder
 
@@ -12,15 +12,32 @@ Tracking von Trainingsdaten via HTML-Formular - Export als CSV-Datei.
 - Wdh #2, manuelle Eingabe
 - Wdh #3, manuelle Eingabe
 
+## Live Eingabe der Trainingsdaten
+
+1. Name des Patienten im Feld **Patient** eintragen
+2. Datum des Trainingstages mittel Drop-down Kalender auswählen
+3. Übung mittels Drop-down Liste auswählen
+4. Das Trainingsgewicht, sofern erforderlich, der Übung eintragen
+5. Anzahl der Wiederholungen des ersten Satzes eintragen
+6. Anzahl der Wiederholungen des zweiten Satzes eintragen
+7. Anzahl der Wiederholungen des dritten Satzes eintragen
+8. Schaltfläche **Hinzufügen** betätigen, um den ersten Datensatz zum Trainingsplan hinzuzufügen
+9. 3. bis 8. Punkt so oft wiederholen, bis alle angedachten Übungen hinzugefügt wurden
+10. Nachdem alle Daten hinterlegt wurden die Schaltfläche **Export** betätigen, um den gegenwärtigen Plan lokal als `.csv` Datei zu speichern
+
 ## Vorausgefüllte Nutzung
 
-Um vorab einen Trainingsplan zu erstellen trägt man bei ersten Datensatz den Namen des Patienten ein, wählt des Datum mittels Drop-down Kalender, selektiert eine Übung und ggf. das angedachte Trainingsgewicht für die Übung aus. Anschließend betätigt man die Schaltfläche **Hinzufügen** um den Datensatz zum Plan hinzuzufügen.
+Um einen Trainingsplan vorab zu erstellen ist wie folgt vorzugehen:
 
-Ab dem zweiten Datensatz genügt es, lediglich die Übung und ggf. das Trainingsgewicht zu hinterlegen. Eine erneute Betätigung der Schaltflähe **Hinzufügen** fügt auch diesen Datensatz zum Trainingsplan hinzu.
+1. Name des Patienten im Feld **Patient** eintragen
+2. Datum des Trainingstages mittel Drop-down Kalender auswählen
+3. Übung mittels Drop-down Liste auswählen
+4. Das Trainingsgewicht, sofern erforderlich, der Übung eintragen
+5. Schaltfläche **Hinzufügen** betätigen, um den ersten Datensatz zum Trainingsplan hinzuzufügen
+6. 3. bis 5. Punkt so oft wiederholen, bis alle angedachten Übungen hinzugefügt wurden
+7. Mittels Doppelklick die fehlenden Daten (Anzahl der Wiederholungen) im unteren Teils des Formulars eintragen
+8. Nachdem alle Daten hinterlegt wurden die Schaltfläche **Export** betätigen, um den gegenwärtigen Plan lokal als `.csv` Datei zu speichern
 
-Nachdem alle angedachten Übungen zum Plan hinzugefügt wurden, kann man im Nachhinein mittels ***Doppelklick*** die jeweiligen Zellen des Trainingsplans bearbeiten/Werte hinzufügen.
+## Eintragung vollständiger Datensätze
 
-1. Das Formular kann entweder Übung für Übung komplett ausgefüllt werden (je der vollständige Datensatz)
-2. Vorausfüllen der Felder "Name", "Datum", angedachten Übungen inkl. Gewichte und **ohne** Hinterlegung der Wiederholungen erfasst werden
-3.
-4. und im Nachgang, bevor das Dokument exportiert wurde,
+Anders als bei der ***vorausgefüllten Nutzung*** kann die jeweilige Anzahl an Wiederholungen auch direkt eingetragen werden
